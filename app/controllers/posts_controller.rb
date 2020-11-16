@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show , :destroy]
+  before_action :set_post, only: %i[show destroy]
   before_action :authenticate_user!, except: %i[index show]
   def new
     @post = current_user.posts.build
@@ -25,6 +25,7 @@ class PostsController < ApplicationController
   def index
     @posts = Post.all
   end
+
   def destroy
     @post.destroy
     respond_to do |format|
