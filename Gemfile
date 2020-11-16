@@ -29,7 +29,6 @@ gem 'gravatar_image_tag'
 
 gem 'bootstrap', '~> 4.5', '>= 4.5.3'
 gem 'devise', '~> 4.7', '>= 4.7.3'
-gem 'jquery-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
