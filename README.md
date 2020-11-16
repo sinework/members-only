@@ -2,13 +2,6 @@
 
 ### This is a simple blog app with ROR sessions to authorize view access to member users only.
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License: MIT][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 ### Logged in Interface
 
 <img src="./app/assets/images/2.JPG" width="1200px" height="500px" />
