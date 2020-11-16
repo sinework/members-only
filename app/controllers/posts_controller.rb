@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
+  include ApplicationHelper
   before_action :set_post, only: %i[show destroy]
-  before_action :authenticate_user!, except: %i[index show]
+  before_action :signed_in_only!, only: %i[new create]
   def new
     @post = current_user.posts.build
   end
