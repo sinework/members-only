@@ -4,9 +4,9 @@
 <div class="card" style="width: 80%;">
   <div class="card-body">
     <strong class="card-title"><%=post.title%></strong>
-    <% if user_signed_in?%>
+    
     <small class="card-title"> post by: <%=session_status_member_name post%></small>
-  <%end%>
+ 
     <p class="card-text"><%= post.content %></p>
    
   </div>
